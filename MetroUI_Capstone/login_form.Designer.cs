@@ -33,21 +33,20 @@
             this.panelLeft = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.PanelRight = new System.Windows.Forms.Panel();
             this.exit = new System.Windows.Forms.Label();
+            this.loginNext = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label4 = new System.Windows.Forms.Label();
             this.usernameLogin = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.loginNext = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelLeft.SuspendLayout();
-            this.PanelRight.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.PanelRight.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelLeft
@@ -89,6 +88,17 @@
             this.label1.Text = "Blister Pack Automation";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MetroUI_Capstone.Properties.Resources.Logo_White;
+            this.pictureBox1.Location = new System.Drawing.Point(76, 44);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(251, 220);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // menuStrip1
             // 
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -103,7 +113,6 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.PanelRight.BackColor = System.Drawing.Color.White;
             this.PanelRight.Controls.Add(this.exit);
-            this.PanelRight.Controls.Add(this.bunifuThinButton22);
             this.PanelRight.Controls.Add(this.loginNext);
             this.PanelRight.Controls.Add(this.bunifuMaterialTextbox1);
             this.PanelRight.Controls.Add(this.label4);
@@ -126,6 +135,32 @@
             this.exit.TabIndex = 9;
             this.exit.Text = "X";
             this.exit.Click += new System.EventHandler(this.exit_Click);
+            // 
+            // loginNext
+            // 
+            this.loginNext.ActiveBorderThickness = 1;
+            this.loginNext.ActiveCornerRadius = 20;
+            this.loginNext.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
+            this.loginNext.ActiveForecolor = System.Drawing.Color.White;
+            this.loginNext.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
+            this.loginNext.BackColor = System.Drawing.Color.White;
+            this.loginNext.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("loginNext.BackgroundImage")));
+            this.loginNext.ButtonText = "Login";
+            this.loginNext.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.loginNext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginNext.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
+            this.loginNext.IdleBorderThickness = 1;
+            this.loginNext.IdleCornerRadius = 20;
+            this.loginNext.IdleFillColor = System.Drawing.Color.White;
+            this.loginNext.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
+            this.loginNext.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
+            this.loginNext.Location = new System.Drawing.Point(144, 368);
+            this.loginNext.Margin = new System.Windows.Forms.Padding(5);
+            this.loginNext.Name = "loginNext";
+            this.loginNext.Size = new System.Drawing.Size(181, 43);
+            this.loginNext.TabIndex = 7;
+            this.loginNext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.loginNext.Click += new System.EventHandler(this.loginNext_Click);
             // 
             // bunifuMaterialTextbox1
             // 
@@ -207,69 +242,6 @@
             this.bunifuElipse1.ElipseRadius = 25;
             this.bunifuElipse1.TargetControl = this;
             // 
-            // bunifuThinButton22
-            // 
-            this.bunifuThinButton22.ActiveBorderThickness = 1;
-            this.bunifuThinButton22.ActiveCornerRadius = 20;
-            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.bunifuThinButton22.BackColor = System.Drawing.Color.White;
-            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
-            this.bunifuThinButton22.ButtonText = "Registration";
-            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.bunifuThinButton22.IdleBorderThickness = 1;
-            this.bunifuThinButton22.IdleCornerRadius = 20;
-            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.bunifuThinButton22.Location = new System.Drawing.Point(241, 367);
-            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(181, 43);
-            this.bunifuThinButton22.TabIndex = 8;
-            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton22.Click += new System.EventHandler(this.registerclick);
-            // 
-            // loginNext
-            // 
-            this.loginNext.ActiveBorderThickness = 1;
-            this.loginNext.ActiveCornerRadius = 20;
-            this.loginNext.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.loginNext.ActiveForecolor = System.Drawing.Color.White;
-            this.loginNext.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.loginNext.BackColor = System.Drawing.Color.White;
-            this.loginNext.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("loginNext.BackgroundImage")));
-            this.loginNext.ButtonText = "Login";
-            this.loginNext.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.loginNext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginNext.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.loginNext.IdleBorderThickness = 1;
-            this.loginNext.IdleCornerRadius = 20;
-            this.loginNext.IdleFillColor = System.Drawing.Color.White;
-            this.loginNext.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.loginNext.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.loginNext.Location = new System.Drawing.Point(33, 367);
-            this.loginNext.Margin = new System.Windows.Forms.Padding(5);
-            this.loginNext.Name = "loginNext";
-            this.loginNext.Size = new System.Drawing.Size(181, 43);
-            this.loginNext.TabIndex = 7;
-            this.loginNext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.loginNext.Click += new System.EventHandler(this.loginNext_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::MetroUI_Capstone.Properties.Resources.Logo_White;
-            this.pictureBox1.Location = new System.Drawing.Point(76, 44);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(251, 220);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // login_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -287,9 +259,9 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelLeft.ResumeLayout(false);
             this.panelLeft.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.PanelRight.ResumeLayout(false);
             this.PanelRight.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -307,7 +279,6 @@
         private Bunifu.Framework.UI.BunifuMaterialTextbox usernameLogin;
         private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
         private System.Windows.Forms.Label label4;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
         private Bunifu.Framework.UI.BunifuThinButton2 loginNext;
         private System.Windows.Forms.Label exit;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;

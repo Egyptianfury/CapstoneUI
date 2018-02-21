@@ -33,6 +33,7 @@
             this.exit_form2 = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.admin_button_3 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Profiles1 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -50,7 +51,6 @@
             this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.loginNext = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.admin_button_3 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -84,6 +84,32 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(265, 483);
             this.panel1.TabIndex = 11;
+            // 
+            // admin_button_3
+            // 
+            this.admin_button_3.ActiveBorderThickness = 1;
+            this.admin_button_3.ActiveCornerRadius = 20;
+            this.admin_button_3.ActiveFillColor = System.Drawing.Color.White;
+            this.admin_button_3.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
+            this.admin_button_3.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
+            this.admin_button_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
+            this.admin_button_3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("admin_button_3.BackgroundImage")));
+            this.admin_button_3.ButtonText = "Admin";
+            this.admin_button_3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.admin_button_3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.admin_button_3.ForeColor = System.Drawing.Color.White;
+            this.admin_button_3.IdleBorderThickness = 1;
+            this.admin_button_3.IdleCornerRadius = 20;
+            this.admin_button_3.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
+            this.admin_button_3.IdleForecolor = System.Drawing.Color.White;
+            this.admin_button_3.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
+            this.admin_button_3.Location = new System.Drawing.Point(43, 331);
+            this.admin_button_3.Margin = new System.Windows.Forms.Padding(5);
+            this.admin_button_3.Name = "admin_button_3";
+            this.admin_button_3.Size = new System.Drawing.Size(181, 41);
+            this.admin_button_3.TabIndex = 16;
+            this.admin_button_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.admin_button_3.Click += new System.EventHandler(this.click_admin);
             // 
             // Profiles1
             // 
@@ -326,31 +352,6 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
-            // 
-            // admin_button_3
-            // 
-            this.admin_button_3.ActiveBorderThickness = 1;
-            this.admin_button_3.ActiveCornerRadius = 20;
-            this.admin_button_3.ActiveFillColor = System.Drawing.Color.White;
-            this.admin_button_3.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.admin_button_3.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.admin_button_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.admin_button_3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("admin_button_3.BackgroundImage")));
-            this.admin_button_3.ButtonText = "Admin";
-            this.admin_button_3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.admin_button_3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.admin_button_3.ForeColor = System.Drawing.Color.White;
-            this.admin_button_3.IdleBorderThickness = 1;
-            this.admin_button_3.IdleCornerRadius = 20;
-            this.admin_button_3.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.admin_button_3.IdleForecolor = System.Drawing.Color.White;
-            this.admin_button_3.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.admin_button_3.Location = new System.Drawing.Point(43, 331);
-            this.admin_button_3.Margin = new System.Windows.Forms.Padding(5);
-            this.admin_button_3.Name = "admin_button_3";
-            this.admin_button_3.Size = new System.Drawing.Size(181, 41);
-            this.admin_button_3.TabIndex = 16;
-            this.admin_button_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // home_form
             // 

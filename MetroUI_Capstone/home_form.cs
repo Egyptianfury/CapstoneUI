@@ -72,5 +72,13 @@ namespace MetroUI_Capstone
             f3.ShowDialog();
             this.Close();
         }
+
+        private void click_admin(object sender, EventArgs e)
+        {
+            this.Hide();
+            admin ad = new admin();
+            ad.ShowDialog();
+            this.Close();
+        }
     }
 }

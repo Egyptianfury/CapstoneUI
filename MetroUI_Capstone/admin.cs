@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MetroUI_Capstone
 {
-    public partial class patients_form : Form
+    public partial class admin : Form
     {
-        public patients_form()
+        public admin()
         {
             InitializeComponent();
         }
@@ -35,18 +35,36 @@ namespace MetroUI_Capstone
             Application.Exit();
         }
 
-        private void Patients_Tile_Click(object sender, EventArgs e)
+        private void admin_Tile_Click(object sender, EventArgs e)
         {
 
         }
 
         private void admin2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            admin a1 = new admin();
-            a1.ShowDialog();
-            this.Close();
 
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void click_home(object sender, EventArgs e)
+        {
+            this.Hide();
+            home_form home1 = new home_form();
+            home1.ShowDialog();
+            this.Close();
+        }
+
+        private void click_patient(object sender, EventArgs e)
+        {
+            this.Hide();
+            patients_form p1 = new patients_form();
+            p1.ShowDialog();
+            this.Close();
         }
     }
 }
